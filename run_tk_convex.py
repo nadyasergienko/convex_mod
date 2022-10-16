@@ -49,6 +49,6 @@ try:
         f.draw(tk)
         tk.draw_line2(a, b)
         print(f"S = {f.area()}, P = {f.perimeter()}, A = {f.s()}\n")
-except(EOFError, KeyboardInterrupt):
+except (EOFError, KeyboardInterrupt):
     print("\nStop")
     tk.close()
